@@ -5,7 +5,6 @@ ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt /tmp/requirements.txt
 COPY ./requirements.dev.txt /tmp/requirements.dev.txt
-COPY ./docker-compose.yml /docker-compose.yml
 COPY ./app  /app
 
 WORKDIR /app
